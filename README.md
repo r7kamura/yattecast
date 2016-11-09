@@ -1,6 +1,6 @@
 # Yattecast
 
-Podcastを一瞬ではじめられるテンプレート
+Yattecastは、Podcastサイトを簡単につくるためのテンプレートです。
 
 ![image](/images/screenshot.png)
 
@@ -33,4 +33,4 @@ bundle exec jekyll serve
 
 ### GitHubの容量制限
 
-GitHubでは通常、1ファイルあたり最大100MBまのファイルしか配置できません。これは64kbpsのmp3ファイル約3時間分の大きさにあたります。
+GitHubでは通常、1ファイルあたり最大100MBまでのファイルを配置できます。これは64kbpsで収録したmp3形式の音声ファイル約3時間分の大きさにあたります。
