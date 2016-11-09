@@ -2,10 +2,13 @@
 
 Podcastを一瞬ではじめられるテンプレート
 
+![image](/images/screenshot.png)
+
 ## 特徴
 
 - 記事と音源を配置するだけでPodcastを公開できます
-- GitHub Pagesを利用して無料でサイトをホスティングできます
+- GitHub Pagesを利用して無料でサイトを運用できます
+- https://yatteiki.fm/ などで利用されています
 
 ## 使い方
 
