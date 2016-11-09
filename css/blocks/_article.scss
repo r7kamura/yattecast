@@ -1,0 +1,19 @@
+.article {
+  &-header {
+    margin-bottom: 24px;
+
+    &-note {
+      color: $color-text-dark-secondary;
+      font-size: 0.9em;
+    }
+  }
+
+  &-slideshow {
+    max-width: 600px;
+    height: 400px;
+  }
+
+  audio {
+    width: 100%;
+  }
+}

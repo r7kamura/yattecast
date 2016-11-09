@@ -1,0 +1,29 @@
+.list-group-element {
+  display: block;
+  line-height: 1.7;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  position: relative;
+
+
+  &-footer {
+    color: $color-text-dark-secondary;
+    font-size: 0.9rem;
+  }
+
+  &-heading {
+    font-size: 1.5rem;
+  }
+
+  &-images {
+    margin-top: 8px;
+
+    &-element {
+      border-radius: 50%;
+
+      & + & {
+        margin-left: 4px;
+      }
+    }
+  }
+}

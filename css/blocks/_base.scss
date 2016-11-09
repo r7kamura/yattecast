@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  &,
+  &:active,
+  &:focus,
+  &:hover {
+    color: #1c3c7c;
+    text-decoration: none;
+  }
+}
+
+body {
+  background-color: #eee;
+  color: $color-text-dark-primary;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Hiragino Kaku Gothic ProN, "メイリオ", meiryo, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  word-wrap: break-word;
+}

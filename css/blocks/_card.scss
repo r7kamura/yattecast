@@ -1,0 +1,38 @@
+.card {
+  background-color: #fff;
+  border-radius: 2px;
+  margin-bottom: 24px;
+
+  &-body,
+  &-header {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+
+  &-body + &-body,
+  &-header + &-body {
+    padding-top: 0;
+  }
+
+  &-body-large {
+    font-size: 1.2rem;
+  }
+
+  &-header {
+    text-align: center;
+  }
+
+  &-heading {
+    font-size: 2rem;
+  }
+
+  &-paragraph {
+    & + & {
+      margin-top: 1em;
+    }
+  }
+
+  strong {
+    font-weight: bold;
+  }
+}

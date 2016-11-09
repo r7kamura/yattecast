@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang={{ site.language }}>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main class="main">
+      <div class="container">
+        <article class="article card">
+          <header class="article-header card-header">
+            <h1 class="card-heading">
+              <a href="{{ page.url }}">
+                {{ page.title }}
+              </a>
+            </h1>
+            <div class="article-header-note">
+              {{ page.date | date: "%Y年%m月%d日" }}
+            </div>
+          </header>
+          <section class="card-body markdown">
+            <p>
+              {{ page.description }}
+            </p>
+            <p>
+              <audio
+                class="mejs-player"
+                controls=""
+                data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
+                preload="auto"
+                src="{{ page.audio_file_path }}"
+                width="100%"
+              >
+              </audio>
+            </p>
+            <p class="text-right">
+              <small>
+                <a href="{{ page.audio_file_path }}">MP3ファイルをダウンロード</a>
+              </small>
+            </p>
+            <h2>
+              出演者
+            </h2>
+            <div class="article-actors">
+              {% for actor_id in page.actor_ids %}
+                {% assign actor = site.actors[actor_id] %}
+                <a href="{{ actor.url }}" class="actor" target="_blank">
+                  <img src="{{ actor.image_url }}" alt="{{ actor.name }}" class="actor-image" width="72" height="72">
+                  <br>
+                  {{ actor.name }}
+                </a>
+              {% endfor %}
+            </div>
+            {{ content }}
+          </section>
+          <footer class="article-footer">
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.url }}{{ page.url }}&text={{ page.title }}">
+              Tweet
+            </a>
+          </footer>
+        </article>
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
