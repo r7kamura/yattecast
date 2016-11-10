@@ -18,9 +18,6 @@
           </header>
           <section class="card-body markdown">
             <p>
-              {{ page.description }}
-            </p>
-            <p>
               <audio
                 class="mejs-player"
                 controls=""
@@ -35,6 +32,12 @@
               <small>
                 <a href="{{ page.audio_file_path }}">MP3ファイルをダウンロード</a>
               </small>
+            </p>
+            <h2>
+              内容紹介
+            </h2>
+            <p>
+              {{ page.description }}
             </p>
             <h2>
               出演者
