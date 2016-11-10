@@ -1,15 +1,11 @@
 .list-group-element {
+  color: $color-text-dark-secondary;
   display: block;
+  font-size: 0.9rem;
   line-height: 1.7;
   padding-bottom: 16px;
   padding-top: 16px;
   position: relative;
-
-
-  &-footer {
-    color: $color-text-dark-secondary;
-    font-size: 0.9rem;
-  }
 
   &-heading {
     font-size: 1.5rem;
