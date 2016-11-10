@@ -14,6 +14,7 @@ email: info@example.com
 exclude:
   - Gemfile
   - Gemfile.lock
+  - LICENSE.txt
   - README.md
   - vendor
 hashtag: examplehashtag
