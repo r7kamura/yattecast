@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "katatema build",
+    "serve": "katatema serve"
+  },
+  "dependencies": {
+    "katatema": "^0.1.2"
+  },
+  "private": true
+}

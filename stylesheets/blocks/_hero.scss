@@ -1,0 +1,19 @@
+.hero {
+  &-button-wrapper {
+    margin-top: 2em;
+  }
+
+  &-description {
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  &-heading {
+    font-size: 4rem;
+  }
+
+  &-sub-heading {
+    font-size: 1.5rem;
+    margin-top: 2em;
+  }
+}

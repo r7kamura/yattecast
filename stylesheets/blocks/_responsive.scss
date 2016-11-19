@@ -1,0 +1,46 @@
+@for $i from 1 through 12 {
+  .column-extra-small-#{$i},
+  .column-small-#{$i} {
+    min-height: 1px;
+    padding-left: ($width-gutter / 2);
+    padding-right: ($width-gutter / 2);
+    position: relative;
+  }
+}
+
+@for $i from 1 through 12 {
+  .column-small-#{$i} {
+    @media (min-width: $width-screen-small-minimum) {
+      float: left;
+      width: percentage($i / 12);
+    }
+  }
+}
+
+@for $i from 1 through 12 {
+  .column-extra-small-#{$i} {
+    float: left;
+    width: percentage($i / 12);
+  }
+}
+
+.hidden-extra-small {
+  @media (max-width: $width-screen-extra-small-maximum) {
+    display: none;
+  }
+}
+
+.row {
+  @include clearfix;
+
+  margin-left: -($width-gutter / 2);
+  margin-right: -($width-gutter / 2);
+}
+
+.visible-extra-small {
+  display: none;
+
+  @media (max-width: $width-screen-extra-small-maximum) {
+    display: inherit;
+  }
+}

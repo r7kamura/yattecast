@@ -1,0 +1,28 @@
+.footer {
+  font-size: 0.8rem;
+  padding-bottom: 48px;
+  padding-top: 48px;
+  text-align: center;
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  &-table {
+    margin-left: auto;
+    margin-right: auto;
+
+    td:nth-child(1) {
+      text-align: right;
+
+      &:after {
+        content: ":";
+      }
+    }
+
+    td:nth-child(2) {
+      text-align: left;
+    }
+  }
+}

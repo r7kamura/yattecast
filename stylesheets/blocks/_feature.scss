@@ -1,0 +1,11 @@
+.feature {
+  margin-bottom: 2rem;
+
+  &-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    padding-top: 50%;
+  }
+}
