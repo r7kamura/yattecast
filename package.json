@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "katatema build",
-    "deploy": "katatema build && gh-pages -d docs",
+    "deploy": "yarn run build && gh-pages --dist docs",
     "serve": "katatema serve"
   },
   "dependencies": {
