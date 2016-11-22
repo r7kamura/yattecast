@@ -29,7 +29,7 @@ export default class Index extends React.Component {
                 簡単・便利・最高
               </h2>
               <p className="hero-description">
-                サイトを公開するには、録音した音源と説明文をGitHubに置くだけ。<br/>
+                サイトを公開するには、録音した音源と説明文をGitHubに置くだけ。<br className="hidden-extra-small"/>
                 再生用のプレーヤーやiTunes用のRSSフィードなども自動で用意されます。
               </p>
               <div className="hero-button-wrapper">
