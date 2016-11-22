@@ -13,6 +13,7 @@ export default class Index extends React.Component {
         <Head>
           <meta charSet="utf-8"/>
           <title>Yattecast</title>
+          <meta name="viewport" content="width=device-width"/>
         </Head>
         <Style/>
         <main className="main">
