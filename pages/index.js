@@ -52,7 +52,7 @@ export default class Index extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="column-small-4 feature">
-                  <div className="feature-image" style={{ backgroundImage: "url(https://unsplash.it/400/200/?image=827)" }}/>
+                  <div className="feature-image" style={{ backgroundImage: "url(https://cloud.githubusercontent.com/assets/111689/20546333/c73ef824-b157-11e6-9f35-719ed313812a.png)" }}/>
                   <h3 className="feature-heading">
                     シンプルなデザイン
                   </h3>
@@ -61,7 +61,7 @@ export default class Index extends React.Component {
                   </p>
                 </div>
                 <div className="column-small-4 feature">
-                  <div className="feature-image" style={{ backgroundImage: "url(https://unsplash.it/400/200/?image=861)" }}/>
+                  <div className="feature-image" style={{ backgroundImage: "url(https://cloud.githubusercontent.com/assets/111689/20546239/4de09e4c-b157-11e6-8db1-2d5fb4adc6b2.png)" }}/>
                   <h3 className="feature-heading">
                     RSSフィード
                   </h3>
@@ -70,7 +70,7 @@ export default class Index extends React.Component {
                   </p>
                 </div>
                 <div className="column-small-4 feature">
-                  <div className="feature-image" style={{ backgroundImage: "url(https://unsplash.it/400/200/?image=532)" }}/>
+                  <div className="feature-image" style={{ backgroundImage: "url(https://cloud.githubusercontent.com/assets/111689/20546308/9bc50b52-b157-11e6-8a8b-fc2f638880db.png)" }}/>
                   <h3 className="feature-heading">
                     細かい配慮
                   </h3>
