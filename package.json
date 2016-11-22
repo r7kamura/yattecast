@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "katatema build",
-    "deploy": "gh-pages -d docs",
+    "deploy": "katatema build && gh-pages -d docs",
     "serve": "katatema serve"
   },
   "dependencies": {
