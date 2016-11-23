@@ -52,7 +52,7 @@ export default class Index extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="column-small-4 feature">
-                  <div className="feature-image" style={{ backgroundImage: "url(https://cloud.githubusercontent.com/assets/111689/20546333/c73ef824-b157-11e6-9f35-719ed313812a.png)" }}/>
+                  <div className="feature-image" style={{ backgroundImage: "url(https://cloud.githubusercontent.com/assets/111689/20546957/18104ec0-b15c-11e6-9ca5-929b61388a09.png)" }}/>
                   <h3 className="feature-heading">
                     シンプルなデザイン
                   </h3>
@@ -70,7 +70,7 @@ export default class Index extends React.Component {
                   </p>
                 </div>
                 <div className="column-small-4 feature">
-                  <div className="feature-image" style={{ backgroundImage: "url(https://cloud.githubusercontent.com/assets/111689/20546308/9bc50b52-b157-11e6-8a8b-fc2f638880db.png)" }}/>
+                  <div className="feature-image" style={{ backgroundImage: "url(https://cloud.githubusercontent.com/assets/111689/20546962/30ff8d1a-b15c-11e6-9211-9a941ac14169.png)" }}/>
                   <h3 className="feature-heading">
                     細かい配慮
                   </h3>
