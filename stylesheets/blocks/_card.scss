@@ -9,8 +9,13 @@
     padding: 1.5em;
   }
 
+  &-body + &-body,
   &-header + &-body {
     padding-top: 0;
+  }
+
+  &-clickable {
+    cursor: pointer;
   }
 
   &-heading {

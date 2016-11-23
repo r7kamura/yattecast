@@ -2,6 +2,26 @@ import Head from "katatema/head";
 import React from "react";
 import Style from "../stylesheets/main.scss";
 
+class QuestionCard extends React.Component {
+  constructor(...args) {
+    super(...args);
+    this.state = { hidden: true };
+  }
+
+  render() {
+    return(
+      <div className="card card-clickable" onClick={(event) => { this.setState({ hidden: !this.state.hidden }) }}>
+        <div className="card-body">
+          Q. {this.props.question}
+        </div>
+        <div className={`card-body${this.state.hidden ? " hidden" : ""}`}>
+          A. {this.props.children}
+        </div>
+      </div>
+    );
+  }
+}
+
 export default class Index extends React.Component {
   componentDidMount() {
     console.log("componentDidMount");
@@ -51,7 +71,7 @@ export default class Index extends React.Component {
           <section className="main-section">
             <div className="container">
               <h1 className="main-section-heading">
-                Podcastに便利な機能
+                Podcastに役立つ機能
               </h1>
               <div className="row">
                 <div className="column-small-4 feature">
@@ -84,7 +104,7 @@ export default class Index extends React.Component {
               </div>
             </div>
           </section>
-          <section className="main-section" style={{ backgroundColor: "#f2f2f2" }}>
+          <section className="main-section main-section-gray-background">
             <div className="container">
               <h1 className="main-section-heading">
                 使い方
@@ -139,10 +159,33 @@ export default class Index extends React.Component {
                   </h2>
                 </div>
                 <div className="card-body">
-                  以上で変更は完了です。git pushしてサイトを公開・更新しましょう。<br className="hidden-extra-small"/>
-                orgname.github.io の場合はmasterに、それ以外の場合はgh-pagesブランチにpushします。
+                  以上で変更は完了です。<br className="hidden-extra-small"/>
+                  git pushしてサイトを公開・更新しましょう。
                 </div>
               </div>
+            </div>
+          </section>
+          <section className="main-section">
+            <div className="container">
+              <h1 className="main-section-heading">
+                よくある質問
+              </h1>
+              <QuestionCard question="mp3ファイルに容量制限はありますか？">
+                GitHub Pagesでは1ファイルあたり100MB以下の容量のファイルをホスティングできます。
+              </QuestionCard>
+              <QuestionCard question="どのブランチにPushすればGitHub Pagesに公開できますか？">
+                orgname.github.io というパターンのリポジトリではmaster、それ以外ではgh-pagesが利用できます。
+              </QuestionCard>
+              <QuestionCard question="手元でサイトをプレビューするにはどうすれば良いですか？">
+                Rubyが動く環境を用意できる場合、bundle exec jekyll serve というコマンドでプレビュー用のサーバを起動できます。
+              </QuestionCard>
+              <QuestionCard question="iTunes StoreでPodcastを配信するにはどうすれば良いですか？">
+                iTunes Store &gt; Poscast &gt; Podcastを送信する より RSSフィードのURL (サイトURLの末尾に /feed.xml を付けると得られます) を登録してください。
+              </QuestionCard>
+              <QuestionCard question="無料で利用できますか？">
+                はい、商用利用の有無を問わず無料でご利用いただけます。<br className="hidden-extra-small"/>
+                <a href="https://www.amazon.co.jp/gp/registry/wishlist/31WJYTS73D19K" target="_blank">ほしいものリスト</a> から何か寄付していただけると製作者が喜びます。
+              </QuestionCard>
             </div>
           </section>
           <section className="main-section main-section-image-background" style={{ backgroundImage: "url(https://yatteiki.fm/images/header.jpg)" }}>
@@ -180,12 +223,16 @@ export default class Index extends React.Component {
                   <td><a href="https://yatteiki.fm" target="_blank">yatteiki.fm</a></td>
                 </tr>
                 <tr>
-                  <td>ライセンス</td>
-                  <td><a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a></td>
+                  <td>ソースコード</td>
+                  <td><a href="https://github.com/r7kamura/yattecast" target="_blank">yattecast</a></td>
                 </tr>
                 <tr>
-                  <td>ソースコード</td>
-                  <td><a href="https://github.com/r7kamura/yattecast" target="_blank">GitHub</a></td>
+                  <td>サイト生成</td>
+                  <td><a href="https://github.com/r7kamura/katatema" target="_blank">katatema</a></td>
+                </tr>
+                <tr>
+                  <td>ライセンス</td>
+                  <td><a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a></td>
                 </tr>
               </tbody>
             </table>
