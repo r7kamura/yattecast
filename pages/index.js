@@ -33,7 +33,7 @@ export default class Index extends React.Component {
                 再生用のプレーヤーやiTunes用のRSSフィードなども自動で用意されます。
               </p>
               <div className="hero-button-wrapper">
-                <a href="https://github.com/r7kamura/yattecast" className="button">
+                <a href="https://github.com/r7kamura/yattecast" className="button button-default">
                   GitHubでforkして使う
                 </a>
               </div>
@@ -81,17 +81,21 @@ export default class Index extends React.Component {
               </div>
             </div>
           </section>
-          <section className="main-section">
-            <h2>
-              Podcastをはじめよう
-            </h2>
-            <p>
-              会話を録音して、Yattecastで公開しよう
-            </p>
-            <div className="hero-button-wrapper">
-              <a href="https://github.com/r7kamura/yattecast" className="button">
-                GitHubでforkして使う
-              </a>
+          <section className="main-section main-section-image-background" style={{ backgroundImage: "url(https://yatteiki.fm/images/header.jpg)" }}>
+            <div className="main-section-overlay">
+              <div className="container">
+                <h2>
+                  Podcastをはじめよう
+                </h2>
+                <p>
+                  会話を録音して、Yattecastで公開しよう
+                </p>
+                <div className="hero-button-wrapper">
+                  <a href="https://github.com/r7kamura/yattecast" className="button button-border">
+                    GitHubでforkして使う
+                  </a>
+                </div>
+              </div>
             </div>
           </section>
         </main>
@@ -100,8 +104,16 @@ export default class Index extends React.Component {
             <table className="footer-table">
               <tbody>
                 <tr>
-                  <td>製作者</td>
+                  <td>製作</td>
                   <td><a href="https://github.com/r7kamura" target="_blank">r7kamura</a></td>
+                </tr>
+                <tr>
+                  <td>画像提供</td>
+                  <td><a href="https://github.com/kkosuge" target="_blank">kkosuge</a></td>
+                </tr>
+                <tr>
+                  <td>デモ提供</td>
+                  <td><a href="https://yatteiki.fm" target="_blank">yatteiki.fm</a></td>
                 </tr>
                 <tr>
                   <td>ライセンス</td>

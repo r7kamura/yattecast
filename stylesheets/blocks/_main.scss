@@ -4,5 +4,20 @@
   &-section {
     padding-bottom: 64px;
     padding-top: 64px;
+
+    &-image-background {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #fff;
+    }
+
+    &-overlay {
+      background-color: rgba(0, 0, 0, 0.3);
+      margin-bottom: -64px;
+      margin-top: -64px;
+      padding-bottom: 64px;
+      padding-top: 64px;
+    }
   }
 }

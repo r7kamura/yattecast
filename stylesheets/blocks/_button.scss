@@ -1,7 +1,28 @@
 .button {
-  background-color: #333;
+  border-radius: 3px;
   color: #fff;
   display: inline-block;
   padding: 1em 1.5em;
   text-decoration: none;
+  transition: all 200ms;
+
+  &-border {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  &-default {
+    background-color: #222;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: #555;
+    }
+  }
 }
