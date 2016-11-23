@@ -28,7 +28,7 @@ export default class Index extends React.Component {
       <div>
         <Head>
           <meta charSet="utf-8"/>
-          <title>Yattecast</title>
+          <title>Yattecast - Podcastサイトをつくるためのテンプレート</title>
           <meta name="viewport" content="width=device-width"/>
           <meta name="description" content="Podcastサイトをつくるためのテンプレート"/>
           <meta name="twitter:card" content="summary"/>
