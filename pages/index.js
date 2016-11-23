@@ -50,6 +50,9 @@ export default class Index extends React.Component {
           </section>
           <section className="main-section">
             <div className="container">
+              <h1 className="main-section-heading">
+                Podcastに便利な機能
+              </h1>
               <div className="row">
                 <div className="column-small-4 feature">
                   <div className="feature-image" style={{ backgroundImage: "url(https://cloud.githubusercontent.com/assets/111689/20546957/18104ec0-b15c-11e6-9ca5-929b61388a09.png)" }}/>

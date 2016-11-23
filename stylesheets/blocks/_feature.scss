@@ -1,12 +1,16 @@
 .feature {
   margin-bottom: 3rem;
 
+  &-heading {
+    margin-bottom: 0.3em;
+  }
+
   &-image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     padding-top: 50%;
   }
 }
