@@ -102,7 +102,7 @@ export default class Index extends React.Component {
                     細かい配慮
                   </h3>
                   <p className="feature-description">
-                    倍速再生対応のプレーヤーや、出演者一覧、Twitterボタンなど、Podcastに便利な機能を予め用意しています。
+                    倍速再生対応のプレーヤーやTwitterボタンなど、Podcastに便利な機能を予め用意しています。
                   </p>
                 </div>
               </div>
