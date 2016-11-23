@@ -34,6 +34,14 @@ export default class Index extends React.Component {
           <meta charSet="utf-8"/>
           <title>Yattecast</title>
           <meta name="viewport" content="width=device-width"/>
+          <meta name="description" content="Podcastサイトをつくるためのテンプレート"/>
+          <meta name="twitter:card" content="summary"/>
+          <meta name="twitter:description" content="Podcastサイトをつくるためのテンプレート"/>
+          <meta name="twitter:title" content="Yattecast"/>
+          <meta property="og:description" content="Podcastサイトをつくるためのテンプレート"/>
+          <meta property="og:site_name" content="Yattecast"/>
+          <meta property="og:type" content="website"/>
+          <meta property="og:url" content="https://r7kamura.github.io/yattecast/"/>
         </Head>
         <Style/>
         <main className="main">
