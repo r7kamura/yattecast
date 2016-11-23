@@ -23,10 +23,6 @@ class QuestionCard extends React.Component {
 }
 
 export default class Index extends React.Component {
-  componentDidMount() {
-    console.log("componentDidMount");
-  }
-
   render() {
     return(
       <div>
