@@ -84,6 +84,67 @@ export default class Index extends React.Component {
               </div>
             </div>
           </section>
+          <section className="main-section" style={{ backgroundColor: "#f2f2f2" }}>
+            <div className="container">
+              <h1 className="main-section-heading">
+                使い方
+              </h1>
+              <div className="card">
+                <div className="card-header">
+                  <h2 className="card-heading">
+                    1. リポジトリをfork
+                  </h2>
+                </div>
+                <div className="card-body">
+                  <a href="https://github.com/r7kamura/yattecast">r7kamura/yattecast</a> をforkし、適当な名前に変更します。<br className="hidden-extra-small"/>
+                  orgname.github.io のようなパターンの名前にするのがおすすめです。
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header">
+                  <h2 className="card-heading">
+                    2. 設定を変更
+                  </h2>
+                </div>
+                <div className="card-body">
+                  _config.yml のサイト名や説明文などを書き換えます。
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header">
+                  <h2 className="card-heading">
+                    3. 音源を配置
+                  </h2>
+                </div>
+                <div className="card-body">
+                  _audioディレクトリにmp3ファイルを配置します。<br className="hidden-extra-small"/>
+                  サンプルとして最初から空のmp3ファイルが置かれています。
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header">
+                  <h2 className="card-heading">
+                    4. 記事を配置
+                  </h2>
+                </div>
+                <div className="card-body">
+                  _postsディレクトリに記事を配置します。<br className="hidden-extra-small"/>
+                  サンプルの記事ファイルが置かれているので上書きしましょう。
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header">
+                  <h2 className="card-heading">
+                    5. 変更をpush
+                  </h2>
+                </div>
+                <div className="card-body">
+                  以上で変更は完了です。git pushしてサイトを公開・更新しましょう。<br className="hidden-extra-small"/>
+                orgname.github.io の場合はmasterに、それ以外の場合はgh-pagesブランチにpushします。
+                </div>
+              </div>
+            </div>
+          </section>
           <section className="main-section main-section-image-background" style={{ backgroundImage: "url(https://yatteiki.fm/images/header.jpg)" }}>
             <div className="main-section-overlay">
               <div className="container">
