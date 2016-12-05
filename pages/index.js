@@ -141,7 +141,7 @@ export default class Index extends React.Component {
                   </h2>
                 </div>
                 <div className="card-body">
-                  _audioディレクトリにmp3ファイルを配置します。<br className="hidden-extra-small"/>
+                  audioディレクトリにmp3ファイルを配置します。<br className="hidden-extra-small"/>
                   サンプルとして最初から空のmp3ファイルが置かれています。
                 </div>
               </div>
@@ -184,7 +184,7 @@ export default class Index extends React.Component {
                 Rubyが動く環境を用意できる場合、bundle exec jekyll serve というコマンドでプレビュー用のサーバを起動できます。
               </QuestionCard>
               <QuestionCard question="iTunes StoreでPodcastを配信するにはどうすれば良いですか？">
-                iTunes Store &gt; Poscast &gt; Podcastを送信する より RSSフィードのURL (サイトURLの末尾に /feed.xml を付けると得られます) を登録してください。
+                iTunes Store &gt; Podcast &gt; Podcastを送信する より RSSフィードのURL (サイトURLの末尾に /feed.xml を付けると得られます) を登録してください。
               </QuestionCard>
               <QuestionCard question="無料で利用できますか？">
                 はい、商用利用の有無を問わず無料でご利用いただけます。<br className="hidden-extra-small"/>
