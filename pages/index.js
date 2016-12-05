@@ -6,11 +6,18 @@ class QuestionCard extends React.Component {
   constructor(...args) {
     super(...args);
     this.state = { hidden: true };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(event) {
+    if (!window.getSelection || window.getSelection().isCollapsed) {
+      this.setState({ hidden: !this.state.hidden });
+    }
   }
 
   render() {
     return(
-      <div className="card card-clickable" onClick={(event) => { this.setState({ hidden: !this.state.hidden }) }}>
+      <div className="card card-clickable" onClick={this.handleClick}>
         <div className="card-body">
           Q. {this.props.question}
         </div>
