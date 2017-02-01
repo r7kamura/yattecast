@@ -18,7 +18,7 @@
             {{ site.title }} への感想や質問などは、Twitterでハッシュタグ <a href="https://twitter.com/search?q=%23{{ site.hashtag }}" target="_blank">#{{ site.hashtag }}</a> をご利用ください。
           </div>
           <div class="footer-twitter">
-            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.url }}">
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}">
               Tweet
             </a>
           </div>
@@ -37,13 +37,13 @@
               </li>
             {% endif %}
             <li>
-              <a href="http://subscribeonandroid.com/{{ site.url | remove: "https://" | remove: "http://" }}/feed.xml" target="_blank">Androidで購読</a>
+              <a href="http://subscribeonandroid.com/{{ site.github.url | remove: "https://" | remove: "http://" }}/feed.xml" target="_blank">Androidで購読</a>
             </li>
             <li>
-              <a href="https://push.dog/subscribe?url={{ site.url }}/feed.xml" target="_blank">Pushdogで購読</a>
+              <a href="https://push.dog/subscribe?url={{ site.github.url }}/feed.xml" target="_blank">Pushdogで購読</a>
             </li>
             <li>
-              <a href="{{ site.url }}/feed.xml" target="_blank">RSSで購読</a>
+              <a href="{{ site.github.url }}/feed.xml" target="_blank">RSSで購読</a>
             </li>
           </ul>
         </section>

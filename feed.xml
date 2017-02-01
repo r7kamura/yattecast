@@ -3,8 +3,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="{{ site.language }}">
   <channel>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.github.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <link>{{ site.github.url }}</link>
     <title>{{ site.title }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <media:keywords>{{ site.keywords }}</media:keywords>
@@ -18,22 +18,22 @@
       <itunes:name>{{ site.author }}</itunes:name>
       <itunes:email>{{ site.email }}</itunes:email>
     </itunes:owner>
-    <itunes:image href="{{ site.url }}/images/artwork.jpg" />
+    <itunes:image href="{{ site.github.url }}/images/artwork.jpg" />
     <itunes:category text="Technology"/>
     <itunes:explicit>no</itunes:explicit>
     {% for post in site.posts %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <link>{{ site.url }}{{ post.url }}</link>
+        <link>{{ site.github.url }}{{ post.url }}</link>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <description>{{ post.content | xml_escape }}</description>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        <enclosure url="{{ site.url }}{{ post.audio_file_path }}" length="{{ post.audio_file_size }}" type="audio/mp3"/>
+        <guid isPermaLink="true">{{ site.github.url }}{{ post.url }}</guid>
+        <enclosure url="{{ site.github.url }}{{ post.audio_file_path }}" length="{{ post.audio_file_size }}" type="audio/mp3"/>
         <itunes:author>{{ site.author }}</itunes:author>
         <itunes:subtitle>{{ post.description }}</itunes:subtitle>
         <itunes:duration>{{ post.duration }}</itunes:duration>
         <itunes:explicit>no</itunes:explicit>
-        <media:thumbnail url="{{ site.url }}/images/artwork.jpg"/>
+        <media:thumbnail url="{{ site.github.url }}/images/artwork.jpg"/>
       </item>
     {% endfor %}
   </channel>
