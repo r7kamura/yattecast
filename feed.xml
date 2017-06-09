@@ -4,7 +4,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="{{ site.language }}">
   <channel>
     <atom:link href="{{ site.github.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    <link>{{ site.github.url }}</link>
+    <link>{{ site.github.url }}/</link>
     <title>{{ site.title }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <media:keywords>{{ site.keywords }}</media:keywords>
