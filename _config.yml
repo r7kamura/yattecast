@@ -7,9 +7,9 @@ actors:
     image_url: /images/actors/bob.png
     name: bob
     url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
+author: Operaion Urd
+description: 頑張ります
+description_long: 頑張って続けていきます
 email: info@example.com
 exclude:
   - Gemfile
@@ -17,14 +17,14 @@ exclude:
   - LICENSE.txt
   - README.md
   - vendor
-hashtag: examplehashtag
+hashtag: urdfm
 itunes_podcast_url:
-keywords: comma,separated,keywords
+keywords: podcast,tech,programming,urd
 language: ja
 markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: Urd.fm
+url: https://op-urd.github.io/
