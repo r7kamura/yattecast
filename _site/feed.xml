@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="ja">
+  <channel>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <title>Urd.fm</title>
+    <description>オペレーションウルド開始</description>
+    <media:keywords>podcast,tech,programming,anime,gadget</media:keywords>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+    <language>ja</language>
+    <itunes:subtitle>オペレーションウルド開始</itunes:subtitle>
+    <itunes:author>Operaion Urd</itunes:author>
+    <itunes:summary>オペレーションウルド開始</itunes:summary>
+    <itunes:keywords>podcast,tech,programming,anime,gadget</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>Operaion Urd</itunes:name>
+      <itunes:email>info@example.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="/images/artwork.jpg" />
+    <itunes:category text="Technology"/>
+    <itunes:explicit>no</itunes:explicit>
+    
+      <item>
+        <title>1. Episode1</title>
+        <link>/episode/1</link>
+        <pubDate>Sun, 27 Aug 2017 00:00:00 +0900</pubDate>
+        <description>&lt;h2 id=&quot;section&quot;&gt;関連リンク&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/stsn_jp&quot;&gt;@satoshun&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/ymizushi&quot;&gt;@ymizushi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/nabetama&quot;&gt;@nabetama&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@timakin/%E4%BB%8A%E5%B9%B4%E3%81%AF-%E4%BD%95%E3%81%8B%E5%A4%A7%E3%81%8D%E3%82%81%E3%81%AEoss%E3%81%AB%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%83%88%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99%E3%81%AD-902771f0ba0e&quot;&gt;「今年は…何か大きめのOSSにコントリビュートしたいですね」&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <guid isPermaLink="true">/episode/1</guid>
+        <enclosure url="/audio/1.mp3" length="" type="audio/mp3"/>
+        <itunes:author>Operaion Urd</itunes:author>
+        <itunes:subtitle>satoshun,ymizushi,nabetamaの3人で、プログラミングの上達、OSS、完全食などについて話しました。</itunes:subtitle>
+        <itunes:duration>00:00</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <media:thumbnail url="/images/artwork.jpg"/>
+      </item>
+    
+  </channel>
+</rss>
