@@ -13,7 +13,7 @@ actors:
     url: https://twitter.com/nabetama
 author: Operaion Urd
 description: オペレーションウルド開始
-description_long: 頑張って続けていきます
+description_long: 仕事、コンピューター、アニメ、ゲームなどの話題を中心に、普通のデベロッパーたちが普通に話す、民衆のためのPodcast
 email: info@example.com
 exclude:
   - Gemfile
