@@ -4,7 +4,7 @@
       <div class="row">
         <section class="column-small-4 footer-sections-element">
           <h1 class="footer-sections-element-heading">
-            {{ site.title }} とは
+            {{ site.title }}
           </h1>
           <div class="footer-sections-element-description">
             {{ site.title }} は、{{ site.description_long }}です。
@@ -25,22 +25,22 @@
         </section>
         <section class="column-small-4 footer-sections-element">
           <h1 class="footer-sections-element-heading">
-            購読
+            Subscribe
           </h1>
           <div class="footer-sections-element-description">
-            新しいエピソードの配信を購読できます。
+            RSS を購読すると、新しいエピソードを自動でダウンロード、再生することができます。
           </div>
           <ul>
             {% if site.itunes_podcast_url %}
               <li>
-                <a href="{{ site.itunes_podcast_url }}" target="_blank">iTunesで購読</a>
+                <i class="fa fa-apple" aria-hidden="true"></i> <a href="{{ site.itunes_podcast_url }}" target="_blank">iTunesで購読</a>
               </li>
             {% endif %}
             <li>
-              <a href="http://subscribeonandroid.com/{{ site.github.url | remove: "https://" | remove: "http://" }}/feed.xml" target="_blank">Androidで購読</a>
+              <i class="fa fa-android" aria-hidden="true"></i> <a href="http://subscribeonandroid.com/{{ site.github.url | remove: "https://" | remove: "http://" }}/feed.xml" target="_blank">Androidで購読</a>
             </li>
             <li>
-              <a href="{{ site.github.url }}/feed.xml" target="_blank">RSSで購読</a>
+              <i class="fa fa-rss" aria-hidden="true"></i> <a href="{{ site.github.url }}/feed.xml" target="_blank">RSSで購読</a>
             </li>
           </ul>
         </section>

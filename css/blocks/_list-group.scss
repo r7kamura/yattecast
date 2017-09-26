@@ -8,7 +8,23 @@
   position: relative;
 
   &-heading {
-    font-size: 1.5rem;
+    color: #000;
+    font-size: 140%;
+    font-weight: 700;
+    border-bottom: 1px solid #eee;
+    a {
+        &,
+        &:active,
+        &:focus,
+        &:visited {
+          color: #000;
+          text-decoration: none;
+        }
+        &:hover {
+          background: #02e;
+          color: #fff;
+        }
+    }
   }
 
   &-images {

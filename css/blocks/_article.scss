@@ -1,4 +1,6 @@
 .article {
+  padding: 1em;
+
   &-header {
     margin-bottom: 24px;
 
@@ -15,5 +17,9 @@
 
   audio {
     width: 100%;
+  }
+  .text-right {
+	padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
   }
 }

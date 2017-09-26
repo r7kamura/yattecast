@@ -1,5 +1,6 @@
 .footer {
-  color: $color-text-dark-secondary;
+  color: $color-footer;
+  background-color: $color-backgroud-footer;
   font-size: 0.9rem;
   padding-bottom: 64px;
   padding-top: 64px;
@@ -20,5 +21,15 @@
 
   &-twitter {
     margin-top: 0.4rem;
+  }
+
+  a {
+      &,
+      &:active,
+      &:focus,
+      &:hover {
+          color: #FFF;
+          text-decoration: underline;
+      }
   }
 }

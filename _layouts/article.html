@@ -13,7 +13,7 @@
               </a>
             </h1>
             <div class="article-header-note">
-              {{ page.date | date: "%Y年%m月%d日" }}
+              {{ page.date | date: '%B %d, %Y' }}
             </div>
           </header>
           <section class="card-body markdown">
@@ -30,17 +30,17 @@
             </p>
             <p class="text-right">
               <small>
-                <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a>
+                <i class="fa fa-clock-o"></i>収録時間{{ page.duration }}
+              </small>|
+              <small>
+                <a href="{{ page.audio_file_path | prepend:site.github.url }}"><i class="fa fa-download"></i>Download MP3</a>
               </small>
             </p>
-            <h2>
-              内容紹介
-            </h2>
             <p>
               {{ page.description }}
             </p>
             <h2>
-              出演者
+              Starring
             </h2>
             <div class="article-actors">
               {% for actor_id in page.actor_ids %}
