@@ -7,7 +7,7 @@ layout: default
     {% for post in site.posts %}
       <article class="list-group-element">
         <h1 class="list-group-element-heading">
-          <a href="{{ post.url | prepend:site.github.url }}">{{ post.title | escape }}</a>
+          <a href="{{ post.url | prepend:site.github.url }}">{{ forloop.index }}. {{ post.title | escape }}</a>
         </h1>
         <div class="list-group-element-footer-wrapper">
           <footer class="list-group-element-footer">
