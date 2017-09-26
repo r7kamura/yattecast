@@ -4,7 +4,6 @@
   font-size: 0.9rem;
   line-height: 1.7;
   padding-bottom: 16px;
-  padding-top: 16px;
   position: relative;
 
   &-heading {
@@ -12,7 +11,9 @@
     font-size: 140%;
     font-weight: 700;
     border-bottom: 1px solid #eee;
+    padding: 10px;
     a {
+        display: block;
         &,
         &:active,
         &:focus,
@@ -21,10 +22,13 @@
           text-decoration: none;
         }
         &:hover {
-          background: #02e;
+          background: #488dd8;
           color: #fff;
         }
     }
+  }
+  &-footer-wrapper {
+    padding: 10px;
   }
 
   &-images {

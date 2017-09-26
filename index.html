@@ -9,12 +9,14 @@ layout: default
         <h1 class="list-group-element-heading">
           <a href="{{ post.url | prepend:site.github.url }}">{{ post.title | escape }}</a>
         </h1>
-        <footer class="list-group-element-footer">
-          <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}
-        </footer>
-        <p>
-          {{ post.description }}
-        </p>
+        <div class="list-group-element-footer-wrapper">
+          <footer class="list-group-element-footer">
+            <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}
+          </footer>
+          <p>
+            {{ post.description }}
+          </p>
+        <div>
         <div class="list-group-element-images">
           {% for actor_id in post.actor_ids %}
             {% assign actor = site.actors[actor_id] %}
