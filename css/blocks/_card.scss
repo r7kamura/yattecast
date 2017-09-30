@@ -1,11 +1,10 @@
 .card {
   background-color: #fff;
-  border-radius: 2px;
-  margin-bottom: 24px;
+  border-radius: 5px;
+  margin-bottom: 1em;
 
   &-body,
   &-header {
-    padding-bottom: 32px;
     padding-top: 32px;
   }
 
@@ -23,7 +22,8 @@
   }
 
   &-heading {
-    font-size: 2rem;
+    color: #000;
+    font-size: 140%;
   }
 
   &-paragraph {

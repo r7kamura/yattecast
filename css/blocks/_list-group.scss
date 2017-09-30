@@ -3,12 +3,32 @@
   display: block;
   font-size: 0.9rem;
   line-height: 1.7;
-  padding-bottom: 16px;
-  padding-top: 16px;
   position: relative;
 
   &-heading {
-    font-size: 1.5rem;
+    color: #000;
+    font-size: 140%;
+    font-weight: 700;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    a {
+        display: block;
+        &,
+        &:active,
+        &:focus,
+        &:visited {
+          color: #000;
+          text-decoration: none;
+        }
+        &:hover {
+          background: #488dd8;
+          color: #fff;
+        }
+    }
+  }
+  &-footer-wrapper {
+    padding: 10px;
+    background: #faf9f5;
   }
 
   &-images {

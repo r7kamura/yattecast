@@ -102,7 +102,21 @@
   pre,
   table,
   ul {
+    font-size: 90%;
     margin-bottom: 16px;
+    li {
+      a { 
+        color: #000;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+        &:visited {
+          color: #000;
+          text-decoration: none;
+        }
+      }
+    }
   }
 
   blockquote {
@@ -148,7 +162,8 @@
 
   h2 {
     font-size: 1.3rem;
-    margin-top: 50px;
+    margin-top: 1.5em;
+    border-bottom: 1px solid #eee;
   }
 
   h3 {
