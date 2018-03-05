@@ -12,6 +12,8 @@ description: Example description
 description_long: Example long description
 email: info@example.com
 exclude:
+  - docker
+  - docker-compose.yml
   - Gemfile
   - Gemfile.lock
   - LICENSE.txt
