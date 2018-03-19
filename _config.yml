@@ -19,6 +19,7 @@ exclude:
   - LICENSE.txt
   - README.md
   - vendor
+google_analytics:
 hashtag: examplehashtag
 itunes_podcast_url:
 keywords: comma,separated,keywords
