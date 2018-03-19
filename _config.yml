@@ -17,6 +17,7 @@ exclude:
   - LICENSE.txt
   - README.md
   - vendor
+google_analytics:
 hashtag: examplehashtag
 itunes_podcast_url:
 keywords: comma,separated,keywords
@@ -28,4 +29,3 @@ sass:
 timezone: Asia/Tokyo
 title: Example title
 url: http://example.com
-google_analytics:
