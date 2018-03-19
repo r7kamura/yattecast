@@ -28,3 +28,4 @@ sass:
 timezone: Asia/Tokyo
 title: Example title
 url: http://example.com
+google_analytics:
