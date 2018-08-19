@@ -8,9 +8,10 @@ actors:
     name: bob
     url: http://sns.example.com/bob
 author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
+description: オンラインコミュニティ”DevelopersJP”周辺にたむろするノラ猫エンジニアたちが、近頃流行りのテック系ポッドキャストを“サカナ“ 🐟 に話す番組です。
+description_long: オンラインコミュニティ”DevelopersJP”周辺にたむろするノラ猫エンジニアたちが、近頃流行りのテック系ポッドキャストを“サカナ“ 🐟 に話す番組です。DevelopersJPは、フリーランスや小さな会社のエンジニアが集って、わいわいワイワイ
+してる Slack のことです。
+email: noracast.podcast@gmail.com
 exclude:
   - docker
   - docker-compose.yml
@@ -20,7 +21,7 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
+hashtag: noracast
 itunes_podcast_url:
 keywords: comma,separated,keywords
 language: ja
@@ -29,5 +30,5 @@ permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: noracast
+url: https://noracast.netlify.com
