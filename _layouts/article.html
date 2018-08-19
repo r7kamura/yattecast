@@ -8,7 +8,7 @@
         <article class="article card">
           <header class="article-header card-header">
             <h1 class="card-heading">
-              <a href="{{ page.url | prepend:site.github.url }}">
+              <a href="{{ page.url | prepend:site.url }}">
                 {{ page.title }}
               </a>
             </h1>
@@ -23,14 +23,14 @@
                 controls=""
                 data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
                 preload="auto"
-                src="{{ page.audio_file_path | prepend:site.github.url }}"
+                src="{{ page.audio_file_path | prepend:site.url }}"
                 width="100%"
               >
               </audio>
             </p>
             <p class="text-right">
               <small>
-                <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a>
+                <a href="{{ page.audio_file_path | prepend:site.url }}">MP3ファイルをダウンロード</a>
               </small>
             </p>
             <h2>
@@ -46,7 +46,7 @@
               {% for actor_id in page.actor_ids %}
                 {% assign actor = site.actors[actor_id] %}
                 <a href="{{ actor.url }}" class="actor" target="_blank">
-                  <img src="{{ actor.image_url | prepend:site.github.url }}" alt="{{ actor.name }}" class="actor-image" width="72" height="72">
+                  <img src="{{ actor.image_url | prepend:site.url }}" alt="{{ actor.name }}" class="actor-image" width="72" height="72">
                   <br>
                   {{ actor.name }}
                 </a>
@@ -55,7 +55,7 @@
             {{ content }}
           </section>
           <footer class="article-footer">
-            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}{{ page.url }}&text={{ page.title }}">
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.url }}{{ page.url }}&text={{ page.title }}">
               Tweet
             </a>
           </footer>

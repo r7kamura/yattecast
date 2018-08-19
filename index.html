@@ -7,7 +7,7 @@ layout: default
     {% for post in site.posts %}
       <article class="list-group-element">
         <h1 class="list-group-element-heading">
-          <a href="{{ post.url | prepend:site.github.url }}">{{ post.title | escape }}</a>
+          <a href="{{ post.url | prepend:site.url }}">{{ post.title | escape }}</a>
         </h1>
         <footer class="list-group-element-footer">
           {{ post.date | date: "%Y年%m月%d日" }}
@@ -18,7 +18,7 @@ layout: default
         <div class="list-group-element-images">
           {% for actor_id in post.actor_ids %}
             {% assign actor = site.actors[actor_id] %}
-            <img src="{{ actor.image_url | prepend:site.github.url }}" alt="{{ actor.name }}" class="list-group-element-images-element" width="40" height="40">
+            <img src="{{ actor.image_url | prepend:site.url }}" alt="{{ actor.name }}" class="list-group-element-images-element" width="40" height="40">
           {% endfor %}
         </div>
       </article>
