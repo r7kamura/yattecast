@@ -3,6 +3,10 @@ actors:
     image_url: /images/actors/miyamoto.jpg
     name: ミヤモト
     url: https://twitter.com/yahsan2
+  s:
+    image_url: /images/actors/s.png
+    name: S(えす)
+    url: https://twitter.com/goodengineer7
   sugi:
     image_url: /images/actors/sugi.jpg
     name: スギ
