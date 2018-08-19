@@ -1,15 +1,15 @@
 actors:
   miyamoto:
     image_url: /images/actors/miyamoto.jpg
-    name: yahsan2
+    name: ミヤモト
     url: https://twitter.com/yahsan2
   sugi:
     image_url: /images/actors/sugi.jpg
-    name: koheiSG
+    name: スギ
     url: https://twitter.com/koheiSG
   terada:
     image_url: /images/actors/terada.jpg
-    name: naokazu_terada
+    name: テラダ
     url: https://twitter.com/naokazu_terada
 author: alice
 description: オンラインコミュニティ”DevelopersJP”周辺にたむろするノラ猫エンジニアたちが、近頃流行りのテック系ポッドキャストを“サカナ“ 🐟 に話す番組です。
