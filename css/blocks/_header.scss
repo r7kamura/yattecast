@@ -1,11 +1,12 @@
 .header {
-  background-image: url(../images/artwork.png);
+  background-image: url(../images/lily-banse-348257-unsplash.jpg);
   background-size: cover;
   background-position: center;
 
   &-description {
     color: $color-text-light-secondary;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    width: calc(30%)
   }
 
   &-heading {
@@ -27,7 +28,7 @@
   &-overlay {
     background-color: rgba(0, 0, 0, 0.3);
     height: 100%;
-    padding-bottom: 96px;
-    padding-top: 96px;
+    padding-bottom: 190px;
+    padding-top: 20px;
   }
 }
