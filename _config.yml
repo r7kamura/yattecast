@@ -9,8 +9,7 @@ actors:
     url: http://sns.example.com/bob
 author: alice
 description: オンラインコミュニティ”DevelopersJP”周辺にたむろするノラ猫エンジニアたちが、近頃流行りのテック系ポッドキャストを“サカナ“ 🐟 に話す番組です。
-description_long: オンラインコミュニティ”DevelopersJP”周辺にたむろするノラ猫エンジニアたちが、近頃流行りのテック系ポッドキャストを“サカナ“ 🐟 に話す番組です。DevelopersJPは、フリーランスや小さな会社のエンジニアが集って、わいわいワイワイ
-してる Slack のことです。
+description_long: オンラインコミュニティ”DevelopersJP”周辺にたむろするノラ猫エンジニアたちが、近頃流行りのテック系ポッドキャストを“サカナ“ 🐟 に話す番組です。DevelopersJPは、フリーランスや小さな会社のエンジニアが集って、わいわいワイワイしてるSlack のことです。
 email: noracast.podcast@gmail.com
 exclude:
   - docker
