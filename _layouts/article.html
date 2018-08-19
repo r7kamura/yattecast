@@ -23,14 +23,14 @@
                 controls=""
                 data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
                 preload="auto"
-                src="{{ page.audio_file_path | prepend:site.url }}"
+                src="{{ page.audio_file_path }}"
                 width="100%"
               >
               </audio>
             </p>
             <p class="text-right">
               <small>
-                <a href="{{ page.audio_file_path | prepend:site.url }}">MP3ファイルをダウンロード</a>
+                <a href="{{ page.audio_file_path }}">MP3ファイルをダウンロード</a>
               </small>
             </p>
             <h2>
