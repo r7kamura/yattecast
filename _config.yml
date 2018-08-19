@@ -1,12 +1,16 @@
 actors:
-  alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
+  miyamoto:
+    image_url: /images/actors/miyamoto.jpg
+    name: yahsan2
+    url: https://twitter.com/yahsan2
+  sugi:
+    image_url: /images/actors/sugi.jpg
+    name: koheiSG
+    url: https://twitter.com/koheiSG
+  terada:
+    image_url: /images/actors/terada.jpg
+    name: naokazu_terada
+    url: https://twitter.com/naokazu_terada
 author: alice
 description: オンラインコミュニティ”DevelopersJP”周辺にたむろするノラ猫エンジニアたちが、近頃流行りのテック系ポッドキャストを“サカナ“ 🐟 に話す番組です。
 description_long: オンラインコミュニティ”DevelopersJP”周辺にたむろするノラ猫エンジニアたちが、近頃流行りのテック系ポッドキャストを“サカナ“ 🐟 に話す番組です。DevelopersJPは、フリーランスや小さな会社のエンジニアが集って、わいわいワイワイしてるSlack のことです。
