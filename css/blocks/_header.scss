@@ -2,19 +2,24 @@
   background-image: url(../images/lily-banse-348257-unsplash.jpg);
   background-size: cover;
   background-position: center;
+  height: 400px;
 
-  &-description {
-    color: $color-text-light-secondary;
-    font-size: 0.7rem;
-    width: 30%;
+  &-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+  }
+
+  &-wrap {
+    width: calc(100% - 40px);
+    max-width: 400px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
   }
 
   &-heading {
-    color: $color-text-light-primary;
-    text-shadow: 0 1px 5px black;
-    font-size: 2.5rem;
-    font-weight: 500;
-
+    width: 100%;
+    padding-top: 40px;
     a {
       &,
       &:active,
@@ -22,26 +27,29 @@
       &:hover {
         color: inherit;
       }
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 
-  &-overlay {
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 100%;
-    padding-bottom: 190px;
-    padding-top: 20px;
+  &-description {
+    color: $color-text-light-secondary;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 100%;
+    text-shadow: 0 1px 5px black;
+    position: absolute;
+    bottom: 20px;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .header {
-    &-overlay {
-      position: relative;
-    }
     &-description {
       position: absolute;
-      bottom: 16px;
-      width: calc(100% - 32px);
+      bottom: 20px;
     }
   }
 }
