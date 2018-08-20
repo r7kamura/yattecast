@@ -37,19 +37,10 @@
   &-description {
     color: $color-text-light-secondary;
     font-size: 0.7rem;
-    text-align: center;
+    text-align: justify;
     width: 100%;
     text-shadow: 0 1px 5px black;
-    position: absolute;
-    bottom: 20px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .header {
-    &-description {
-      position: absolute;
-      bottom: 20px;
-    }
+    margin-top: 24px;
+    font-weight: 600;
   }
 }
