@@ -33,7 +33,7 @@
         <itunes:subtitle>{{ post.description }}</itunes:subtitle>
         <itunes:duration>{{ post.duration }}</itunes:duration>
         <itunes:explicit>no</itunes:explicit>
-        <media:thumbnail url="{{ site.url }}/images/artwork.png"/>
+        <media:thumbnail url="{{ site.url }}/images/artwork.jpg"/>
       </item>
     {% endfor %}
   </channel>
