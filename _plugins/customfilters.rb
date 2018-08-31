@@ -2,8 +2,8 @@ require 'faraday'
 
 module Jekyll
   module CustomFilters
-    def mimetype(filepath)
-      "audio/#{File.extname(filepath)[1..-1]}"
+    def extname(filepath)
+      File.extname(filepath)[1..-1]
     end
 
     def filesize(url)
