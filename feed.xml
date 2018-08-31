@@ -28,7 +28,7 @@
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <description>{{ post.content | xml_escape }}</description>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        <enclosure url="{{ post.audio_file_path }}" length="{{ post.audio_file_path | filesize }}" type="{{ post.audio_file_path | mimetype }}"/>
+        <enclosure url="{{ post.audio_file_url }}" length="{{ post.audio_file_url | filesize }}" type="{{ post.audio_file_url | mimetype }}"/>
         <itunes:author>{{ site.author }}</itunes:author>
         <itunes:subtitle>{{ post.description }}</itunes:subtitle>
         <itunes:duration>{{ post.duration }}</itunes:duration>
