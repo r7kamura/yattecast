@@ -19,6 +19,8 @@ author: noracats
 description: '"noracast"（ノラキャスト）は、オンラインコミュニティ"DevelopersJP"周辺にたむろするノラ猫エンジニアたちが、近頃流行りのテック系ポッドキャストを“サカナ“ 🐟 に話す番組です。'
 description_long: 'オンラインコミュニティ"DevelopersJP"周辺にたむろするノラ猫エンジニアたちが、近頃流行りのテック系ポッドキャストを“サカナ“ 🐟 に話す番組です。DevelopersJPは、フリーランスや小さな会社のエンジニアが集って、わいわいワイワイしてるSlack のことです。'
 email: noracast.podcast@gmail.com
+include:
+  - _redirects
 exclude:
   - docker
   - docker-compose.yml
