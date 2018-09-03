@@ -1,0 +1,28 @@
+backend:
+  name: github
+  repo: noracast/noracast.jp # Path to your Github repository
+  branch: add-netlify-cms # Branch to update
+
+publish_mode: editorial_workflow
+
+media_folder: "images/uploads" # Media files will be stored here
+public_folder: "/images/uploads" # The src attribute for uploaded media
+
+collections:
+  - name: "posts" # Used in routes, e.g. /admin/collections/posts
+    label: "Post" # Used in the UI
+    folder: "_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. 2018-05-28-1.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Audio File Url", name: "audio_file_url", widget: "string"}
+      - {label: "Duration", name: "duration", widget: "string"}
+      - label: "Actors"
+        name: "actor_ids"
+        widget: "list"
+        default: ["miyamoto", "sugi", "terada"]
+      - {label: "Body", name: "body", widget: "markdown"}
