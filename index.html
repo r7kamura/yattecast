@@ -7,7 +7,7 @@ layout: default
     {% for post in site.posts %}
       <article class="list-group-element">
         <h1 class="list-group-element-heading">
-          <a href="{{ post.url | prepend:site.url }}">{{ post.title | escape }}</a>
+          <a href="{{ post.url }}">{{ post.title | escape }}</a>
         </h1>
         <footer class="list-group-element-footer">
           {{ post.date | date: "%Y年%m月%d日" }}
