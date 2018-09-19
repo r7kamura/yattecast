@@ -12,8 +12,8 @@
                 {{ page.title }}
               </a>
             </h1>
-            <div class="article-header-note">
-              {{ page.date | date: "%Y年%m月%d日" }}
+            <div class="article-header-note pub-date-time">
+                {{ page.date | date_to_xmlschema }}
             </div>
           </header>
           <section class="card-body markdown">
