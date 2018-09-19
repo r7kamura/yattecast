@@ -5,7 +5,7 @@ layout: default
 <div class="container">
   <div class="card">
     {% for post in site.posts %}
-      <article class="list-group-element">
+      <article class="list-group-element" style="display: none">
         <h1 class="list-group-element-heading">
           <a href="{{ post.url | prepend:site.github.url }}">{{ post.title | escape }}</a>
         </h1>
