@@ -25,7 +25,7 @@ exclude:
   - vendor
 google_analytics:
 hashtag: なんちゃラジオ
-itunes_podcast_url: https://itunes.apple.com/jp/podcast/なんちゃらアイドル-podcast/id1333086389?mt=2
+itunes_podcast_url: https://itunes.apple.com/jp/podcast/id1333086389
 keywords: idol
 language: ja
 markdown: kramdown
