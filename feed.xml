@@ -8,7 +8,7 @@
     <title>{{ site.title }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <media:keywords>{{ site.keywords }}</media:keywords>
-    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Music</media:category>
     <language>{{ site.language }}</language>
     <itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
     <itunes:author>{{ site.author }}</itunes:author>
