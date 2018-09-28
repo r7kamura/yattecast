@@ -19,7 +19,7 @@
       <itunes:email>{{ site.email }}</itunes:email>
     </itunes:owner>
     <itunes:image href="{{ site.github.url }}/images/artwork.jpg" />
-    <itunes:category text="Technology"/>
+    <itunes:category text="Music"/>
     <itunes:explicit>no</itunes:explicit>
     {% for post in site.posts %}
       <item>
