@@ -8,7 +8,7 @@
     <title>{{ site.title }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <media:keywords>{{ site.keywords }}</media:keywords>
-    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Music</media:category>
     <language>{{ site.language }}</language>
     <itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
     <itunes:author>{{ site.author }}</itunes:author>
@@ -19,7 +19,7 @@
       <itunes:email>{{ site.email }}</itunes:email>
     </itunes:owner>
     <itunes:image href="{{ site.github.url }}/images/artwork.jpg" />
-    <itunes:category text="Technology"/>
+    <itunes:category text="Music"/>
     <itunes:explicit>no</itunes:explicit>
     {% for post in site.posts %}
       <item>
@@ -28,7 +28,7 @@
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <description>{{ post.content | xml_escape }}</description>
         <guid isPermaLink="true">{{ site.github.url }}{{ post.url }}</guid>
-        <enclosure url="{{ site.github.url }}{{ post.audio_file_path }}" length="{{ post.audio_file_size }}" type="audio/mp3"/>
+        <enclosure url="{{ post.audio_file_path }}" length="{{ post.audio_file_size }}" type="audio/mp3"/>
         <itunes:author>{{ site.author }}</itunes:author>
         <itunes:subtitle>{{ post.description }}</itunes:subtitle>
         <itunes:duration>{{ post.duration }}</itunes:duration>

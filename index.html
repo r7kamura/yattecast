@@ -9,6 +9,9 @@ layout: default
         <h1 class="list-group-element-heading">
           <a href="{{ post.url | prepend:site.github.url }}">{{ post.title | escape }}</a>
         </h1>
+        <p style="display: none" class="date-time">
+          {{ post.date | date_to_xmlschema }}
+        </p>
         <footer class="list-group-element-footer">
           {{ post.date | date: "%Y年%m月%d日" }}
         </footer>
@@ -25,3 +28,4 @@ layout: default
     {% endfor %}
   </div>
 </div>
+

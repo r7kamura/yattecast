@@ -12,8 +12,8 @@
                 {{ page.title }}
               </a>
             </h1>
-            <div class="article-header-note">
-              {{ page.date | date: "%Y年%m月%d日" }}
+            <div class="article-header-note pub-date-time">
+                {{ page.date | date_to_xmlschema }}
             </div>
           </header>
           <section class="card-body markdown">
@@ -23,14 +23,14 @@
                 controls=""
                 data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
                 preload="auto"
-                src="{{ page.audio_file_path | prepend:site.github.url }}"
+                src="{{ page.audio_file_path }}"
                 width="100%"
               >
               </audio>
             </p>
             <p class="text-right">
               <small>
-                <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a>
+                <a href="{{ page.audio_file_path }}">MP3ファイルをダウンロード</a>
               </small>
             </p>
             <h2>

@@ -1,3 +1,3 @@
-# Yattecast
+# なんちゃラジオ
 
-https://r7kamura.github.io/yattecast/
+http://podcast.nantyara.com
