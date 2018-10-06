@@ -54,6 +54,11 @@
             </div>
             {{ content }}
           </section>
+          {% if page.rec_date %}
+          <div class="article-rec_date">
+            収録日: {{ page.rec_date | date: "%Y年%m月%d日" }}
+          </div>
+          {% endif %}
           <footer class="article-footer">
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.url }}{{ page.url }}&text={{ page.title }}">
               Tweet
