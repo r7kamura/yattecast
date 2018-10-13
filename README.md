@@ -1,3 +1,3 @@
-# Yattecast
+# noracast
 
-https://r7kamura.github.io/yattecast/
+[https://noracast.jp](https://noracast.jp)
