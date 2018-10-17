@@ -1,15 +1,15 @@
 actors:
-  alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
+  rihoyan:
+    image_url: /images/actors/rihoyan.jpg
+    name: りほやん
+    url: https://twitter.com/rllllho
+  risacan:
+    image_url: /images/actors/risacan.jpg
+    name: りさきゃん
+    url: https://twitter.com/_risacan_
+author: risacan
+description: TODO タイトル下の説明を書くところ
+description_long: TODO footerの説明を書くところ
 email: info@example.com
 exclude:
   - docker
@@ -19,9 +19,9 @@ exclude:
   - LICENSE.txt
   - README.md
   - vendor
-google_analytics:
-hashtag: examplehashtag
-itunes_podcast_url:
+? google_analytics
+hashtag: yancanfm
+? itunes_podcast_url
 keywords: comma,separated,keywords
 language: ja
 markdown: kramdown
@@ -29,5 +29,5 @@ permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: やんきゃん.fm
+url: http://dots-girls.github.io/yancanfm
