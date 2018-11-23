@@ -31,7 +31,7 @@ exclude:
   - vendor
 google_analytics:
 hashtag: noracast
-itunes_podcast_url:
+itunes_podcast_url: https://itunes.apple.com/jp/podcast/noracast/id1434566238?l=en&mt=2
 keywords: comma,separated,keywords
 language: ja
 markdown: kramdown
