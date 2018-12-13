@@ -34,7 +34,7 @@
             </p>
             <p class="text-right">
               <small>
-                <a href="{{ page.audio_file_url }}">Download MP3 ( {{ page.audio_file_url | filesize | pretty_size }} )</a>
+                <a href="{{ page.audio_file_url }}">Download {{ page.audio_file_url | extname | upcase }} ( {{ page.audio_file_url | filesize | pretty_size }} )</a>
               </small>
             </p>
             <h2>
