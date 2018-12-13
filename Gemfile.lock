@@ -28,6 +28,7 @@ GEM
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.25)
+    filesize (0.2.0)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
     github-pages (191)
@@ -243,7 +244,8 @@ PLATFORMS
 
 DEPENDENCIES
   faraday
+  filesize
   github-pages
 
 BUNDLED WITH
-   1.16.1
+   1.17.2
