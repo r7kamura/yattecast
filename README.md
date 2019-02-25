@@ -1,8 +1,8 @@
-# IMOSAKE.FM
+# Output In My Opinion.FM
 
-Sake好きのSlackで生まれた、各々がIMOを語るPodcast
+各々がIMOを語ってアウトプットするPodcastです
 
-https://yu-kgr.github.io/imosake.fm/
+https://yu-kgr.github.io/oimo.fm/
 
 
 # Command
