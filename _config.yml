@@ -1,16 +1,16 @@
 actors:
-  alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
-author: alice
-description: Example description
+  yu-kgr:
+    image_url: https://pbs.twimg.com/profile_images/1026162033073389568/PdnOi_uW_400x400.jpg
+    name: yu-kgr
+    url: https://twitter.com/yu_kgr
+  yt-ymmt:
+    image_url: https://pbs.twimg.com/profile_images/957177977908871168/2XqgtUD6_400x400.jpg
+    name: yt-ymmt
+    url: https://twitter.com/YtYmmt
+author: yu-kgr
+description: 各々がIMOを語ってアウトプットするPodcastです
 description_long: Example long description
-email: info@example.com
+email: kgr.ze21ro@gmail.com
 exclude:
   - docker
   - docker-compose.yml
@@ -20,7 +20,7 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
+hashtag: oimofm
 itunes_podcast_url:
 keywords: comma,separated,keywords
 language: ja
@@ -29,5 +29,5 @@ permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: Output In My Opinion.FM
+url: https://podcast.kglabo.com/
