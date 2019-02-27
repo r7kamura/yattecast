@@ -1,11 +1,10 @@
 # Output In My Opinion.FM
 
-各々がIMOを語ってアウトプットするPodcastです
-
-https://yu-kgr.github.io/oimo.fm/
-
+- ミナカワ（@yu_kgr）とヤマモト（@yt-ymmt）のエンジニア2名が、その時々に思った話題についてIMOをアウトプットするPodcastです。
+- URL : https://podcast.kglabo.com/
 
 # Command
 
-- `bundle install`
-- `bundle exec jekyll serve`
+- Start : `bundle install`
+- Dev Run: `docker-compose up`
+- Doc Build: `bundle exec jekyll build`
