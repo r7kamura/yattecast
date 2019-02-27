@@ -18,20 +18,7 @@
           </header>
           <section class="card-body markdown">
             <p>
-              <audio
-                class="mejs-player"
-                controls=""
-                data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
-                preload="auto"
-                src="{{ page.audio_file_path | prepend:site.github.url }}"
-                width="100%"
-              >
-              </audio>
-            </p>
-            <p class="text-right">
-              <small>
-                <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a>
-              </small>
+              <iframe src="{{ page.poadcast_url }}" width="100%" frameborder="0" scrolling="no"></iframe>
             </p>
             <h2>
               内容紹介

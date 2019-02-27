@@ -1,15 +1,15 @@
 actors:
-  yu-kgr:
-    image_url: https://pbs.twimg.com/profile_images/1026162033073389568/PdnOi_uW_400x400.jpg
-    name: yu-kgr
+  yu_kgr:
+    image_url: /images/actors/yu_kgr.png
+    name: yu_kgr
     url: https://twitter.com/yu_kgr
-  yt-ymmt:
-    image_url: https://pbs.twimg.com/profile_images/957177977908871168/2XqgtUD6_400x400.jpg
-    name: yt-ymmt
+  YtYmmt:
+    image_url: /images/actors/yt-ymmt.png
+    name: YtYmmt
     url: https://twitter.com/YtYmmt
 author: yu-kgr
-description: 各々がIMOを語ってアウトプットするPodcastです
-description_long: Example long description
+description: ミナカワ（@yu_kgr）とヤマモト（@yt-ymmt）のエンジニア2名が、その時々に思った話題についてIMOをアウトプットするPodcastです。
+description_long: 石川在住のミナカワ（@yu_kgr）と東京在住のヤマモト（@yt-ymmt）が、お互いが各々思っていることをアウトプットしつつ壁打ちするpodcastです。その時々で気になった話題について個人的な考えなど語り合います。OIMO.fmの「OIMO」は「Output In My Opinion」の略で「この話題について、俺が思うに…」な事をどんどんアウトプットしようぜ。という意図でつけられました。
 email: kgr.ze21ro@gmail.com
 exclude:
   - docker
@@ -20,14 +20,14 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: oimofm
-itunes_podcast_url:
-keywords: comma,separated,keywords
+hashtag: OIMOfm
+podcast_feed_url: https://anchor.fm/s/8379bd4/podcast/rss
+keywords: IMO,Output,FrontendEngineer,TeamBuilding,Chating
 language: ja
 markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Output In My Opinion.FM
+title: OIMO.fm
 url: https://podcast.kglabo.com/
