@@ -19,9 +19,16 @@ exclude:
   - LICENSE.txt
   - README.md
   - vendor
-google_analytics:
+google_analytics: UA-135774491-1
 hashtag: OIMOfm
-podcast_feed_url: https://anchor.fm/s/8379bd4/podcast/rss
+anchor_feed_url: https://anchor.fm/s/8379bd4/podcast/rss
+apple-podcasts_feed_url: https://itunes.apple.com/jp/podcast/oimo-fm/id1454822923
+google-podcasts_feed_url: https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy84Mzc5YmQ0L3BvZGNhc3QvcnNz
+spotify_feed_url: https://open.spotify.com/show/0cC8gzaT1dDNEvz7KvqE6J
+breaker_feed_url: https://www.breaker.audio/oimo-dot-fm
+overcast_feed_url: https://overcast.fm/itunes1454822923/oimo-fm
+pocket-casts_feed_url: https://pca.st/G3SK
+radio-public_feed_url: https://radiopublic.com/oimofm-GqkObr
 keywords: IMO,Output,FrontendEngineer,TeamBuilding,Chating
 language: ja
 markdown: kramdown
