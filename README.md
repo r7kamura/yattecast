@@ -5,7 +5,7 @@
 # 音源ファイルの作り方
 
 1. GarageBandで編集して書き出し
-2. [Podcast Chapters](https://chaptersapp.com/)でチャプター付与
+2. [Podcast Chapters](https://chaptersapp.com/)でチャプター付与（AACの場合は[Forecast](https://overcast.fm/forecast)が使える）
 3. モノラル変換
   ```sh
   ffmpeg -i stereo.mp3 -ac 1 mono.mp3
