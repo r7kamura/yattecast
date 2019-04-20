@@ -1,16 +1,16 @@
 actors:
-  alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
+  dekoiliwo:
+    image_url: /images/actors/dekoiliwo.png
+    name: 凸井リヲ
+    url: https://twitter.com/nabeliwo
+  katsumata:
+    image_url: /images/actors/katsumata.png
+    name: かつまたさん
+    url: https://twitter.com/shu_katsumata
+author: dekoiliwo
+description: 俺たちはただただアニメとゲームの話だけしていたいんだ
+description_long: vtuber の凸井リヲと人事のかつまたさんがひたすらアニメとゲームの話をハァハァしながらするラジオ
+email: nabeliwo@gmail.com
 exclude:
   - docker
   - docker-compose.yml
@@ -20,14 +20,14 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
+hashtag: ゲンカイラジヲ
 itunes_podcast_url:
-keywords: comma,separated,keywords
+keywords: genkairadio, dekoiliwo, katsumata
 language: ja
 markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: ゲンカイラジヲ
+url: https://genkairadio.com

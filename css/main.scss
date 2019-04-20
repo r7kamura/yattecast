@@ -1,6 +1,11 @@
 ---
 ---
 
+@font-face {
+  font-family: 'koukaon';
+  src: url('../font/koukaonfont01.ttf') format('truetype');
+}
+
 // Fixed order
 @import "blocks/reset";
 @import "_mixins";

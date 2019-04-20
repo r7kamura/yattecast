@@ -1,5 +1,5 @@
 .header {
-  background-image: url(../images/artwork.jpg);
+  background-image: url(../images/artwork.png);
   background-size: cover;
   background-position: center;
 
@@ -15,6 +15,8 @@
     font-weight: 500;
 
     a {
+      font-family: 'koukaon';
+
       &,
       &:active,
       &:focus,
@@ -25,7 +27,7 @@
   }
 
   &-overlay {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     padding-bottom: 96px;
     padding-top: 96px;
