@@ -1,3 +1,3 @@
-# Yattecast
+# Yarukinai
 
 https://yarukinai.fm
