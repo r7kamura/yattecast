@@ -1,13 +1,21 @@
 actors:
-  alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
-author: alice
+  operandoOS:
+    image_url: /images/actors/operandoOS.jpg
+    name: operandoOS
+    url: https://twitter.com/operandoOS
+  sugaishun:
+    image_url: /images/actors/sugaishun.jpg
+    name: sugaishun
+    url: https://twitter.com/sugaishun
+  snowlong:
+    image_url: /images/actors/snowlong.png
+    name: snowlong
+    url: https://snowlong.hatenablog.com/
+  tetuo41:
+    image_url: /images/actors/tetuo41.jpeg
+    name: tetuo41
+    url: https://twitter.com/tetuo41
+author: tetuo41
 description: yarukinai radio
 description_long: So yarukinai radio
 email: tetuo41@gmail.com
@@ -20,7 +28,7 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: yarukinai
+hashtag: yarukinai.fm
 itunes_podcast_url:
 keywords: yarukinai,kinpatsu,tetuo41
 language: ja
