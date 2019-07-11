@@ -28,7 +28,7 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: yarukinai.fm
+hashtag: yarukinaifm
 itunes_podcast_url: https://podcasts.apple.com/jp/podcast/yarukinai-fm/id1468116415
 keywords: yarukinai,kinpatsu,tetuo41
 language: ja
