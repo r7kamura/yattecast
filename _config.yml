@@ -1,16 +1,16 @@
 actors:
-  alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
+  punchdrunker:
+    image_url: /images/actors/punchdrunker.jpg
+    name: punchdrunker
+    url: https://twitter.com/punchdrunker
+  atsushisakai:
+    image_url: /images/actors/atsushisakai.jpg
+    name: atsushisakai
+    url: https://twitter.com/_atsushisakai
+author: punchdrunker
+description: みてねのエンジニアの日常をお届けします
+description_long: みてねのエンジニアの日常をお届けするポッドキャスト
+email: takafumi.nanao@mixi.co.jp
 exclude:
   - docker
   - docker-compose.yml
@@ -20,14 +20,14 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
+hashtag: mitene-tech-radio
 itunes_podcast_url:
-keywords: comma,separated,keywords
+keywords: mitene,familyalbum,mixi
 language: ja
 markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
+title: みてね技術放送局
 url: http://example.com
