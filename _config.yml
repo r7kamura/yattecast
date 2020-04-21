@@ -19,7 +19,7 @@ exclude:
   - LICENSE.txt
   - README.md
   - vendor
-google_analytics:
+google_analytics: UA-164155974-1
 hashtag: mitene_tech_radio
 itunes_podcast_url:
 keywords: mitene,familyalbum,mixi
