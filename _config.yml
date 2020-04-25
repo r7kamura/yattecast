@@ -8,9 +8,9 @@ actors:
     name: bob
     url: http://sns.example.com/bob
 author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
+description: Love FM Radio
+description_long: Love FM Radio
+email: none
 exclude:
   - docker
   - docker-compose.yml
@@ -20,8 +20,8 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
-itunes_podcast_url:
+hashtag: lovefmradio
+itunes_podcast_url: https://naoyuki-sato.github.io/feed.xml
 keywords: comma,separated,keywords
 language: ja
 markdown: kramdown
@@ -29,5 +29,5 @@ permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: Love FM Radio
+url: https://naoyuki-sato.github.io/
