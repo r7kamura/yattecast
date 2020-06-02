@@ -7,6 +7,10 @@ actors:
     image_url: /images/actors/atsushisakai.jpg
     name: atsushisakai
     url: https://twitter.com/_atsushisakai
+  isaoshimizu:
+    image_url: /images/actors/isaoshimizu.jpg
+    name: isaoshimizu
+    url: https://twitter.com/isaoshimizu
 author: punchdrunker
 description: みてねのエンジニアの日常をお届けします
 description_long: みてねのエンジニアの日常をお届けするポッドキャスト
