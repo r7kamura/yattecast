@@ -1,15 +1,19 @@
 actors:
-  alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
+  watahari:
+    image_url: /images/actors/watahari.png
+    name: わたはり
+    url: https://watahari.com/
+  voltsss:
+    image_url: /images/actors/voltsss.jpeg
+    name: でんあつ
+    url: https://twitter.com/voltsss
+  chocowriter:
+    image_url: /images/actors/chocowriter.jpg
+    name: しょこらいたー
+    url: https://twitter.com/chocowriter
+author: watahari
+description: インターネットの片隅で、技術・サブカル・趣味・ガジェット・・・なんでもありな雑談を繰り広げます。一緒に乾杯しませんか。
+description_long: 高専卒の酔っぱらいが、翌日に自分の記憶を確かめるために配信するPodcast。きっと「あー、オタクの(いい意味で)面倒な飲み会ね」と思ってもらえるはずです。
 email: info@example.com
 exclude:
   - docker
@@ -19,15 +23,15 @@ exclude:
   - LICENSE.txt
   - README.md
   - vendor
-google_analytics:
-hashtag: examplehashtag
-itunes_podcast_url:
-keywords: comma,separated,keywords
+google_analytics: G-YCXLK28HW9
+hashtag: "まみむメモ"
+itunes_podcast_url: https://mamimumemo.online/feed.xml
+keywords: 雑談,飲み会,晩酌,高専,高専卒,オタク,サブカル,インターネット
 language: ja
 markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: まみむメモ
+url: https://mamimumemo.online/
