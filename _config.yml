@@ -13,7 +13,7 @@ actors:
     url: https://twitter.com/chocowriter
 author: watahari
 description: インターネットの片隅で、技術・サブカル・趣味・ガジェット・・・なんでもありな雑談を繰り広げます。一緒に乾杯しませんか。
-description_long: 高専卒の酔っぱらいが、翌日に自分の記憶を確かめるために配信するPodcast。きっと「あー、オタクの(いい意味で)面倒な飲み会ね」と思ってもらえるはずです。
+description_long: 元高専生の酔っぱらいが、お酒を飲みながら好き勝手にだべるPodcastです。きっと「あー、オタクの(いい意味で)面倒な飲み会ね」と思ってもらえるはずです。楽しかったけど翌日には記憶が怪しい、そんな飲み会を、Podcastの形でメモしておこうと思います。
 email: info@example.com
 exclude:
   - docker
@@ -24,9 +24,9 @@ exclude:
   - README.md
   - vendor
 google_analytics: G-YCXLK28HW9
-hashtag: "まみむメモ"
+hashtag: "memimumemofm"
 itunes_podcast_url: https://mamimumemo.online/feed.xml
-keywords: 雑談,飲み会,晩酌,高専,高専卒,オタク,サブカル,インターネット
+keywords: 雑談,飲み会,酒,高専,高専卒,オタク,サブカル,インターネット
 language: ja
 markdown: kramdown
 permalink: /episode/:title
