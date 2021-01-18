@@ -5,6 +5,7 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
   xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
   xml:lang="{{ site.language }}">
   <channel>
     <atom:link href="{{ site.github.url }}/feed.xml" rel="self" type="application/rss+xml" />
@@ -25,6 +26,10 @@
     <itunes:image href="{{ site.github.url }}/images/artwork.jpg" />
     <itunes:category text="Technology"/>
     <itunes:explicit>no</itunes:explicit>
+    <googleplay:owner>{{ site.email }}</googleplay:owner>
+    <googleplay:author>{{ site.author }}</googleplay:author>
+    <googleplay:image href="{{ site.github.url }}/images/artwork.jpg"/>
+    <googleplay:category text="Games &amp; Hobbies"/>
     {% for post in site.posts %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
