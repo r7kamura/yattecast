@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp src/index.html src/main.js dist/ && sass --no-source-map --style=compressed src/stylesheets/main.scss dist/main.css",
+    "build": "mkdir -p dist && cp -r src/index.html src/main.js src/images dist/ && sass --no-source-map --style=compressed src/stylesheets/main.scss dist/main.css",
     "serve": "npm run build && npx --yes http-server dist -p 8080"
   },
   "devDependencies": {
