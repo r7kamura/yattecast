@@ -1,0 +1,51 @@
+@use "../mixins";
+@use "../variables";
+
+@use "sass:math";
+
+@for $i from 1 through 12 {
+  .column-extra-small-#{$i},
+  .column-small-#{$i} {
+    min-height: 1px;
+    padding-left: (variables.$width-gutter * 0.5);
+    padding-right: (variables.$width-gutter * 0.5);
+    position: relative;
+  }
+}
+
+@for $i from 1 through 12 {
+  .column-small-#{$i} {
+    @media (min-width: variables.$width-screen-small-minimum) {
+      float: left;
+      width: math.percentage(math.div($i, 12));
+    }
+  }
+}
+
+@for $i from 1 through 12 {
+  .column-extra-small-#{$i} {
+    float: left;
+    width: math.percentage(math.div($i, 12));
+  }
+}
+
+.hidden-extra-small {
+  @media (max-width: variables.$width-screen-extra-small-maximum) {
+    display: none;
+  }
+}
+
+.row {
+  @include mixins.clearfix;
+
+  margin-left: -(variables.$width-gutter * 0.5);
+  margin-right: -(variables.$width-gutter * 0.5);
+}
+
+.visible-extra-small {
+  display: none;
+
+  @media (max-width: variables.$width-screen-extra-small-maximum) {
+    display: inherit;
+  }
+}
